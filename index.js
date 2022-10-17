@@ -1,5 +1,8 @@
 const GameBoard = (function gameBoard() {
     const board = new Array(9);
+    for (let i = 0; i < 9; i++) {
+        board[i] = 's'; 
+    }
     return { board };
 })();
 
@@ -20,3 +23,5 @@ const DisplayController = (function displayController() {
 
     return {renderBoard}
 })();
+
+DisplayController.renderBoard(GameBoard.board);
