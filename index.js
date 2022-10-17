@@ -1,6 +1,5 @@
 const GameBoard = (function gameBoard() {
     const board = new Array(9);
-    
     return { board };
 })();
 
