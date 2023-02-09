@@ -8,12 +8,11 @@ header {
     background-color: rgb(17, 75, 95);
     text-align: center;
     padding: 24px;
-    font-size: 24px;
-    color: rgb(169, 179, 186);
+    font-size: 32px;
+    color: rgb(210, 225, 236);
 }
 
 .gameContainer {
-    background-color: rgb(159, 177, 188);
     padding: 24px;
     font-size: 18px;
     display: flex;
@@ -49,13 +48,13 @@ header {
 }
 
 #resetBtn {
-    width: 150px;
-    padding: 8px;
+    width: 200px;
+    padding: 12px;
     border-radius: 8px;
-    margin-top: 24px;
-    font-size: 18px;
+    margin-top: 48px;
+    font-size: 20px;
     background-color: rgb(17, 75, 95);
-    color: rgb(169, 179, 186);
+    color: rgb(219, 227, 232);
 }
 
 .boardCell:hover {
